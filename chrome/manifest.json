@@ -1,0 +1,19 @@
+{
+   "manifest_version": 2,
+   "name": "Callback Staffing Improver",
+   "permissions": [ "https://www.callbackstaffing.com/*" ],
+   "version": "1",
+   "web_accessible_resources": [ "html_code.js" ],
+
+   "description": "Improvements on the callback staffing UI",
+   "content_scripts": [ {
+      "js": [ "jquery.js", "main.js" ],
+      "matches": [ "https://www.callbackstaffing.com/*" ]
+   } ],
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   }
+}
+
