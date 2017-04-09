@@ -1,14 +1,14 @@
 {
    "manifest_version": 2,
    "name": "Callback Staffing Improver",
-   "permissions": [ "https://www.callbackstaffing.com/*" ],
-   "version": "1",
+   "permissions": [ "https://crewsense.com/*" ],
+   "version": "1.6",
    "web_accessible_resources": [ "html_code.js" ],
 
    "description": "Improvements on the callback staffing UI",
    "content_scripts": [ {
       "js": [ "jquery.js", "main.js" ],
-      "matches": [ "https://www.callbackstaffing.com/*" ]
+      "matches": [ "https://www.crewsense.com/*" ]
    } ],
    "icons": {
       "128": "icon128.png",

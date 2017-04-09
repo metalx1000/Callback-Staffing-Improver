@@ -20,6 +20,9 @@ var reps = [
 (document.head||document.documentElement).appendChild(s);
 $(document).ready(function(){
   console.log("Script Running");
+  //Hides overlay
+  $("#terms-bg").hide();
+  
   var name = "Frank Castle"
   var icon = "http://cdn-img.easyicon.net/png/10669/1066998.gif";  
   var icon2 = "http://imgbin.org/images/24149.gif"
